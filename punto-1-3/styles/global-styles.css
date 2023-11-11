@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 19px;
+    height: 100vh;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.logoAviatur {
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 12%;
+    width: 200px;
+}
+
+.main {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+}
+
+.footer {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    background: transparent;
+    z-index: 1;
+    bottom: 0;
+}
+
+.sideMenu {
+    position: absolute;
+    width: 4.1em;
+    height: 100vh;
+    background: rgba(0, 92, 185, 1);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.sideMenu:hover {
+    width: 100px;
+    transition: width 0.5s linear 0s;
+}
+
+.iconMenu {
+    margin-top: 50px;
+    width: 26px;
+    height: 20px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    width: 16px;
+    height: 20px;
+}
+
+.icons:hover {
+    width: 100%;
+}
+
+
+.subMenu {
+    position: absolute;
+    z-index: 2;
+    border: solid #fff 2px;
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    top: 60%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 30%;
+    border-radius: 19px;
+    color: #fff;
+    display: flex;
+    padding: 5p;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Formulario  */
+
+.form {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    width: 56%;
+    background: #d9dde1;
+    display: flex;
+    height: 92px;
+    border-radius: 50px 0 0 50px;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 0 0 27px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconsForm {
+    position: absolute;
+    z-index: 2;
+    top: 72%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    height: 92px;
+}
+
+label {
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    color: #222;
+}
+
+.circle {
+    position: absolute;
+    z-index: 1;
+    width: 90px;
+    height: 90px;
+    top: 72%;
+    right: 160px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: rgba(10, 198, 209, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.iconsLupa {
+    width: 30px;
+    height: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6px;
+    height: 100%;
+    gap: 10px;
+}
+
+input {
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
